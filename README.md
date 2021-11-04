@@ -1,6 +1,6 @@
 # "How to" with C++11
 
-Pratical examples of C++11
+Practical examples of C++11
 
 ## Containers
 
