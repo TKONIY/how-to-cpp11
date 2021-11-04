@@ -4,3 +4,7 @@ ADD_EXECUTABLE(learn_map src/learn_map.cpp)
 ADD_EXECUTABLE(learn_observer src/learn_observer.cpp)
 ADD_EXECUTABLE(learn_raw_array src/learn_raw_array.cpp)
 ADD_EXECUTABLE(learn_unordered_map src/learn_unordered_map.cpp)
+ADD_EXECUTABLE(learn_move_object src/learn_move_constructor.cpp)
+ADD_EXECUTABLE(learn_swap src/learn_swap.cpp)
+ADD_EXECUTABLE(learn_operator_assign src/learn_operator_assign.cpp)
+
