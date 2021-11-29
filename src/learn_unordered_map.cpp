@@ -33,19 +33,19 @@ int main() {
     std::cout << "m1[Foo({2, 1, 3})] = " << m1.at(Foo({2, 1, 3})) << std::endl;
 
     // method 2: define lambda hasher && key_equal
-    auto FooHashLabmda = [](const Foo &f) {
+    auto fooHashLambda = [](const Foo &f) {
         return f.sum();
     };
 
-    auto FooEqualsToLambda = [](const Foo &f1, const Foo &f2) {
+    auto fooEqualsToLambda = [](const Foo &f1, const Foo &f2) {
         return f1.sum() == f2.sum();
     };
 
     std::unordered_map<Foo,
             int,
-            decltype(FooHashLabmda),
-            decltype(FooEqualsToLambda)>
-            m2(100, FooHashLabmda, FooEqualsToLambda);
+            decltype(fooHashLambda),
+            decltype(fooEqualsToLambda)>
+            m2(100, fooHashLambda, fooEqualsToLambda);
     m2[Foo({1, 2, 3})] = 10;
     m2[Foo({1, 10, 20})] = 3;
     std::cout << "m2[Foo({2, 1, 3})] = " << m2.at(Foo({2, 1, 3})) << std::endl;

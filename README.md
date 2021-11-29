@@ -20,3 +20,4 @@ Practical examples of C++11
 * [How to write a swap() function for a class?](./src/learn_swap.cpp)
 * [How to write a move constructor?](./src/learn_move_constructor.cpp)
 * [How to write an operator= for movable and copyable object?](./src/learn_operator_assign.cpp)
+* [How to safely overload operator[]?](./src/learn_ref_qualified.cpp)

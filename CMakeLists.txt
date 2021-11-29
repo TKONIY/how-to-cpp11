@@ -7,4 +7,4 @@ ADD_EXECUTABLE(learn_unordered_map src/learn_unordered_map.cpp)
 ADD_EXECUTABLE(learn_move_object src/learn_move_constructor.cpp)
 ADD_EXECUTABLE(learn_swap src/learn_swap.cpp)
 ADD_EXECUTABLE(learn_operator_assign src/learn_operator_assign.cpp)
-
+ADD_EXECUTABLE(learn_ref_qualified src/learn_ref_qualified.cpp)
